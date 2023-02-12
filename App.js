@@ -178,6 +178,7 @@ export default function App() {
             <View style={styles.card}>
               <CurrentWeather
                 currentWeather={weatherData.current_observation}
+                todayWeather={weatherData.forecasts[0]}
               ></CurrentWeather>
             </View>
             <View style={styles.card}>
@@ -226,10 +227,10 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: '#FFF',
-    height: 100,
+    height: 150,
     alignContent: 'center',
     justifyContent: 'center',
-    borderWidth: 2,
     borderRadius: 10,
+    margin: 5,
   },
 });
