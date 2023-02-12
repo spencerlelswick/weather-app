@@ -1,12 +1,7 @@
 import { useEffect, useState } from 'react';
-import {
-  ActivityIndicator,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { ActivityIndicator, ScrollView, StyleSheet, View } from 'react-native';
 import CurrentWeather from './components/CurrentWeather';
+import Forecast from './components/Forecast';
 import Header from './components/Header';
 
 export default function App() {
@@ -182,21 +177,7 @@ export default function App() {
               ></CurrentWeather>
             </View>
             <View style={styles.card}>
-              <View>
-                <Text>
-                  {weatherData.location.city}, {weatherData.forecasts[0].day}{' '}
-                  test,
-                </Text>
-                <Text>
-                  High:
-                  {weatherData.forecasts[0].high}
-                </Text>
-
-                <Text>
-                  Low:
-                  {weatherData.forecasts[0].low}
-                </Text>
-              </View>
+              <Forecast forecast={weatherData.forecasts}></Forecast>
             </View>
           </View>
         )}
@@ -214,7 +195,6 @@ const styles = StyleSheet.create({
   container: {
     width: '100%',
     flex: 1,
-    padding: '5%',
   },
   header: {
     flex: 1,
