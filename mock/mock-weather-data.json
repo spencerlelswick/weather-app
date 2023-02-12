@@ -1,0 +1,121 @@
+{
+    "location": {
+        "city": "Mock City",
+        "woeid": 2442327,
+        "country": "United States",
+        "lat": 38.25486,
+        "long": -85.766403,
+        "timezone_id": "America/Kentucky/Louisville"
+    },
+    "current_observation": {
+        "pubDate": 1676146112,
+        "wind": {
+            "chill": 54,
+            "direction": "NE",
+            "speed": 4
+        },
+        "atmosphere": {
+            "humidity": 38,
+            "visibility": 11,
+            "pressure": 1027.4
+        },
+        "astronomy": {
+            "sunrise": "7:38 AM",
+            "sunset": "6:17 PM"
+        },
+        "condition": {
+            "temperature": 47,
+            "text": "Fair"
+        }
+    },
+    "forecasts": [
+        {
+            "day": "Sat",
+            "date": 1676131200,
+            "high": 49,
+            "low": 30,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Sun",
+            "date": 1676217600,
+            "high": 55,
+            "low": 32,
+            "text": "Sunny",
+            "code": 32
+        },
+        {
+            "day": "Mon",
+            "date": 1676304000,
+            "high": 58,
+            "low": 34,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Tue",
+            "date": 1676390400,
+            "high": 56,
+            "low": 53,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Wed",
+            "date": 1676476800,
+            "high": 72,
+            "low": 57,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Thu",
+            "date": 1676563200,
+            "high": 66,
+            "low": 31,
+            "text": "Thunderstorms",
+            "code": 4
+        },
+        {
+            "day": "Fri",
+            "date": 1676649600,
+            "high": 42,
+            "low": 28,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Sat",
+            "date": 1676736000,
+            "high": 44,
+            "low": 36,
+            "text": "Sunny",
+            "code": 32
+        },
+        {
+            "day": "Sun",
+            "date": 1676822400,
+            "high": 55,
+            "low": 49,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Mon",
+            "date": 1676908800,
+            "high": 60,
+            "low": 44,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Tue",
+            "date": 1676995200,
+            "high": 58,
+            "low": 39,
+            "text": "Mostly Cloudy",
+            "code": 28
+        }
+    ]
+}
